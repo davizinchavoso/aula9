@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+
+
+
+
+}
+.logo{
+    width: 300px;
+
+}
+.Categoria{
+    padding-top:220px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between; /*distribui os elementos igualmente no espaço disponível*/
+}
+.menu-principal ul{
+    list-style: none;  /*remove a marcação*/
+}
+.menu-principal ul li{
+
+    display: inline-block; /*faz com que os itens fiquem na mesma linha*/
+}
+.menu-principal ul li a{
+    text-decoration: none; /*remove o sublinhado*/
+    background-color:white;
+    
+    color: rgb(14, 14, 206); /*cor do texto*/
+    text-transform:uppercase; /*transforma o texto em maiúsculo*/
+    padding: 5px 20px; /*espaçamento interno*/
+    border: 1px solid transparent;
+    transition:0.06s ease; /*transição suave para o efeito de hover*/
+    border-radius:20px;
+}  
+.menu-principal ul li a:hover{ /*transição quando para o mouse sobre o texto*/
+
+background-color: rgb(243, 243, 243);
+    color: rgb(17, 17, 17);
+   transition:0.06s ease; /*transição suave para o efeito de hover*/
+}
+#pagina-home{
+   height: 613px;
+   background: linear-gradient( rgba(128, 128, 128, 0.514), rgba(255, 255, 255, 0.082)), url(../png/bannerhd.png);
+   background-size: cover;
+   background-position: center;
+}
+   
